@@ -12,7 +12,7 @@ public class Calc {
 
         String[] digitsToString = numberWeEnter.split(" "); /* Разделение вводимых чисел и знака операции происходит при помощи пробела */
 
-        number1 = Double.parseDouble(digitsToString[0]); /* Возвращаем занчение digitsToString[0] нового типа double, представленным ранее строкой (введенное нечто) */
+        number1 = Double.parseDouble(digitsToString[0]); /* Возвращаем занчение digitsToString[0] нового типа double, представленным ранее строкой (введенная строка) */
         number2 = Double.parseDouble(digitsToString[2]); /* По аналогии и для второго числа, но необходим еще и знак операции, который в массиве занимает позицию [1] */
 
         switch (digitsToString[1]) {
